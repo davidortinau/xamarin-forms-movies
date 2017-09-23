@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration;
-using Xamarin.Forms.PlatformConfiguration.GTKSpecific;
+//using Xamarin.Forms.PlatformConfiguration.GTKSpecific;
 
 namespace Movies.Views
 {
@@ -15,7 +15,7 @@ namespace Movies.Views
         {
             InitializeComponent();
 
-            this.On<GTK>().SetBackButtonIcon("Images/movies-back.png");
+            //this.On<GTK>().SetBackButtonIcon("Images/movies-back.png");
         }
     }
 }
